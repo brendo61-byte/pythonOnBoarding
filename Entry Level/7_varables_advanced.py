@@ -26,7 +26,7 @@ Example 6 shows how we can put lists inside a dictionary
 
 What you need to do:
 - Create a dictionary called testDict with a key called "TEST" and value of "DONE". Print the value at key "TEST" -
-print(testDict["TEST]). Then try to print another key's value print(testDict["OTHER"]). What happens?
+print(testDict["TEST"]). Then try to print another key's value print(testDict["OTHER"]). What happens?
 - Take the value of x in Example 6, and a under the student Nolan add a list of classes (just make up some random
 class numbers) so that it looks like the student Brendon.
 """
