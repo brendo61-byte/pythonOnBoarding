@@ -76,8 +76,8 @@ Using loops, and if statements, and everything else from modules 1-9 write a pro
 sample and does the following:
 - Somewhere between days 24 - 67 (inclusively) there was an error reading the temperature. The sensor reported a value
 far too hot to be possible. Find this value and remove it from the list.
-- We need to know how many days the temperature was over 40. Print this to the screen.
-- What is the the average temperature over the 99 days
+- We need to know how many days the temperature was over 40. Print this to the screen (omitting the bad data point).
+- What is the the average temperature over the 99 days (omitting the bad).
 """
 
 data = [{'Time Stamp': 1570648123.120855, 'Temp': 20}, {'Time Stamp': 1570734523.120863, 'Temp': 47},
