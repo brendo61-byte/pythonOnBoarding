@@ -41,9 +41,9 @@ Pt 1
 Pt 2
 - Create an empty dictionary (x= {})
 - Create a while loop that counts from 0 to 100.
-- Append the dictionary such that the key value is the number: number^2
+- Append the dictionary such that the key:value is the number:number^2
 - If the number is divisible by 3 and 5 change the value to be "foobarr"
-- If the squared number is divisible by 7 change the value to be "Not you!"
+- If the number is divisible by 7 change the value to be "Not you!"
 Ex output:
 {
     1: 1
@@ -59,7 +59,7 @@ Ex output:
     11: 121
     12: 144
     13: 169
-    14: 189
+    14: 196
     15: "foobarr"
 }
 """

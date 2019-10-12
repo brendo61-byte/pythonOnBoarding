@@ -33,35 +33,36 @@ Check to make sure your print statements are correct.
 - Just understand the above and what is written below. Module 5 will use this knowledge for some fun stuff.
 """
 val0 = 45 < 55
-print(val0)
+print("45 < 55: {}".format(val0))  # You an use print formatting in embed variables into a string. This will
+# automatically cast the variables to type string - you'll learn about casting at the end of this module
 
 val1 = 456 <= 456
-print(val1)
+print("45 <= 456: {}".format(val1))
 
 val2 = 44 == 44  # Note that = means equal to and == means check if both sides of the expression are equal
-print(val2)
+print("44 < 44: {}".format(val2))
 
-val3 = val2 is bool
-print(val3)
+val3 = type(val2) is bool
+print("is val2 bool: {}".format(val3))
 
 x = 34
-val4 = x is int
-val5 = x is float
-print(val4)
-print(val5)
+val4 = type(x) is int
+val5 = type(x) is float
+print("Is x an int: ".format(val4))
+print("Is x a float: ".format(val5))
 
 # Example
 x = 45
-print(type(x))
-ex = x is str
-print(ex)
+print("x is type: {}".format(type(x)))
+ex = type(x) is str
+print("Is x a string: {}".format(ex))
 
 x = str(x)  # this is called casting. It will try and change the type of a variables to that you are casting it to
 # in this case you are changing 34 to "34". You could also do float(x) and be returned 34.0. You can also cast int and
 # floats to strings using str()
 
-ex = x is str
-print(ex)
+ex = type(x) is str
+print("Is x a string now: {}".format(ex))
 
 """
 # Your code here:

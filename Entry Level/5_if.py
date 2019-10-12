@@ -115,7 +115,7 @@ print("Example 4:\n")
 age = 21
 beer = "yes"
 
-if age > 21 and beer == "yes":  # This will evaluate to True
+if age >= 21 and beer == "yes":  # This will evaluate to True
     print("Cool, lets go get a beer together!")
 else:
     print("I cannot get a beer with you")
@@ -123,7 +123,7 @@ else:
 age = 20
 beer = "yes"
 
-if age > 21 and beer == "yes":  # This will evaluate to False b/c the age check is False
+if age >= 21 and beer == "yes":  # This will evaluate to False b/c the age check is False
     print("Cool, lets go get a beer together!")
 else:
     print("I cannot get a beer with you")
@@ -133,7 +133,7 @@ print("Example 4.1:\n")
 age = 21
 beer = "yes"
 
-if age > 21: # the second if statement is 'nested' under the first
+if age >= 21:  # the second if statement is 'nested' under the first
     if beer == "yes":
         print("Cool, lets go get a beer together!")
 
