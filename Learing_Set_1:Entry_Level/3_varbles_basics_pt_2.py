@@ -10,8 +10,8 @@ Okay now lets do more cool things with variables. Like making python do math for
 
 What you need to do:
 Pt 1
-- solve x = 18 + 0.4x in code
-- solve 0 = (x+4)(x+7) in code
+- solve x = 45 + 4(4/6+2)^5 --- should = 584.391
+- solve x = (4/5*5+1)^.5    --- should = 2.23607
 Pt 2
 - understand why divide0 and divide1 have different results
 - what is mod0 and mod1

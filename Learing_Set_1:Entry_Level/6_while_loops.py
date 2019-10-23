@@ -4,7 +4,6 @@ What you will lean:
 - How to write a while
 - starting conditions for while loops
 - Exit conditions for while loops
-- Basics of reusing code
 
 Okay so now we know if a "thing" is True of False. Now let's use that tool for something more powerful: loops.
 We will first do "while loops".
