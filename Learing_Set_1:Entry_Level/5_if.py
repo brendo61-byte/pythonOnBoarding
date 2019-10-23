@@ -6,7 +6,6 @@ What you will learn:
 - dealing with else
 - dealing with ifelse
 
-Basics:
 
 Okay, let's say your mom said "If you clean your room you can have a cookie" what is going on here. You have been given
 a statement: is room clean? Now if the room is clean (if the statement is True) then you get a cookie. If the room is
