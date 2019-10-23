@@ -14,3 +14,5 @@ I don't care if you do. These are just my recommend exercies to get better at pr
 In the last module there will be a bigger problem (For entry level its your first look at working with data). If you really
 really really should, at the very least, figure out how to write a program for this. If you can't then senior design code will
 be shy of imposible for you... Ideally you can resuse code from this on-boarding for sensior design too!
+
+Update: For some of the modules I include data sets to work on. I write mini programs to generate this data. I'm going to start including those mini programs incase anyone finds theme of use.
