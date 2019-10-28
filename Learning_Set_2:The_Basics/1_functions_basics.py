@@ -34,7 +34,7 @@ Let's look into why this is important in example 3. Notice that the position of 
 What you need to do:
 - create a function that takes in a,b,c and preforms the quadratic equation solving for x. Return a tuple (assume real
 answers)
-- create a function that takes in a the commented out list called "grades" and using a for loop finds what student has
+- create a function that takes in the commented out list called "grades" and using a for loop finds what student has
 the highest grade
 """
 # Example 1
@@ -81,4 +81,4 @@ t2 = foobar(a=a, b=b)
 print("a={}\nb={}".format(a, b))
 print("t0: {}\nt1: {}\nt2: {}".format(t0, t1, t2))
 
-# grades = {"Logan": 92, "Wes": 4, "Brendon": 84, "Abdula": 87, "Tanner": 110, "Tomas": -5}
+grades = {"Logan": 92, "Wes": 4, "Brendon": 84, "Abdula": 87, "Tanner": 110, "Tomas": -5}

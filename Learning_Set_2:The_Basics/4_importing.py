@@ -35,21 +35,21 @@ import random
 import numpy
 import time
 
-count = 5
+COUNT = 5
+DATA_SET_LENGTH = 100
 
 
 def starter():
     operational = True
-    dataSetLength = 100
     c = 0
     while operational:
-        data = getData(25)
+        data = getData(DATA_SET_LENGTH)
         std = getSTD(data)
 
         print("Standard Deviation: {:0.3f}".format(std))  # the ":0.3f" will round a float to 3 decimal places
 
         c += 1
-        if c >= count:
+        if c >= COUNT:
             operational = False
         else:
             time.sleep(.75)  # seconds it will sleep
