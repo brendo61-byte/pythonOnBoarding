@@ -1,0 +1,40 @@
+{
+    "launcher": {
+        "args": {
+            "supervisorList": [
+                {
+                    "supervisorType": "ADC1115_Pyra",
+                    "supervisorID": 2,
+                    "customConfig": null,
+                    "globalID": 1
+                }
+            ]
+        }
+    },
+    "commandControl": {
+        "args": {
+            "heartBeatInterval": 60,
+            "commandServerEndPoint": "http://18.221.181.138/command/device/getCommands"
+        }
+    },
+    "dataControl": {
+        "args": {
+            "updateInterval": 60,
+            "dataIngestion_URL": "http://18.221.181.138/data/device/dataIngestion",
+            "callBack_URL": "http://18.221.181.138/data/devicecallBack",
+            "destination": "self.localData/dataRepo.json",
+            "localData": "Local_Data/",
+            "localFileName": "localCSV.csv"
+        }
+    },
+    "managementController": {
+        "args": {
+            "updateInterval": 1,
+            "registrationURL": "http://18.221.181.138/management/device/supervisorRegistration"
+        }
+    },
+    "logLevel": "DEBUG",
+    "test": false,
+    "threadLimit": 10,
+    "deviceID": 1
+}
