@@ -133,7 +133,7 @@ else:
         # today into a date object. You can also convert datetime into just time in the same way
         print("There are {} days left till your next birthday!".format(daysLeft.days))
 
-hw ={
+hw = {
     "Amy": {
         "grade": 64,
         "Time": 1572676823.0

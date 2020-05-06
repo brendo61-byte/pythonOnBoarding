@@ -1,0 +1,8 @@
+{
+  "test": {
+    "interval": 1,
+    "duration": 5,
+    "lowEnd": 0,
+    "highEnd": 100
+  }
+}
